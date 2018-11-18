@@ -49,7 +49,7 @@ namespace Nodo1
             app.UseMvc();
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Nodo1");
+                await context.Response.WriteAsync("Node 1");
             });
         }
     }
